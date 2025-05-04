@@ -35,11 +35,11 @@ namespace ConsoleApp3.UI
                         break;
                     case "0":
                         valida = false;
-                        Console.WriteLine("Vuelva pronto, gracias!");
+                        _outputWriter.Escribir("Vuelva pronto, gracias!");
                         break;
 
                     default:
-                        Console.WriteLine("Opcion no valida.");
+                        _outputWriter.Escribir("Opcion no valida.");
                         break;
                 }
             }
